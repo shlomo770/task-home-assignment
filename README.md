@@ -8,7 +8,7 @@ A full-stack assignment implementing a real-time fleet management system using:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 task-home-assignment/
 │
@@ -18,7 +18,7 @@ task-home-assignment/
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This project demonstrates a real-time system that:
 
@@ -29,7 +29,7 @@ This project demonstrates a real-time system that:
 
 ---
 
-## ⚠️ Important Note
+##  Important Note
 
 The assignment referenced a provided `mock server (server.js)` that was not included.
 
@@ -38,7 +38,7 @@ The assignment referenced a provided `mock server (server.js)` that was not incl
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
                 ┌────────────────────────────┐
                 │        React UI            │
@@ -72,7 +72,7 @@ The assignment referenced a provided `mock server (server.js)` that was not incl
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 
 ### Initial Load (REST)
 
@@ -103,7 +103,7 @@ WS message
 
 ---
 
-## 🧩 Core Concepts
+##  Core Concepts
 
 ### Redux Toolkit
 
@@ -134,7 +134,7 @@ Benefits:
 
 ---
 
-## 🔌 Realtime Strategy
+##  Realtime Strategy
 
 - REST → initial load & mutations  
 - SSE → live telemetry stream  
@@ -142,7 +142,7 @@ Benefits:
 
 ---
 
-## 🛠️ Running the Project
+##  Running the Project
 
 ### Start Server
 
@@ -166,7 +166,7 @@ http://localhost:5173
 
 ---
 
-## ✅ Implemented
+##  Implemented
 
 - Fleet loading via REST  
 - Real-time telemetry updates (SSE)  
@@ -177,7 +177,7 @@ http://localhost:5173
 
 ---
 
-## 🔧 Future Improvements
+## Future Improvements
 
 - Conflict resolution UI (optimistic locking)  
 - Retry & resilience strategies  
@@ -187,8 +187,3 @@ http://localhost:5173
 
 ---
 
-## 💡 Summary
-
-The system is built with a clear architecture, real-time data handling, and scalable state management.
-
-It demonstrates a production-ready approach to building real-time applications with clean separation between UI, state, and transport layers.
