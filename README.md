@@ -10,7 +10,7 @@ A full-stack assignment implementing a real-time fleet management system using:
 
 ## 📁 Project Structure
 
-Home-exercise/
+task-home-assignment/
 │
 ├── client/   # React + Redux frontend  
 ├── server/   # Temporary mock server (Node.js)  
